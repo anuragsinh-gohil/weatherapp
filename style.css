@@ -53,6 +53,11 @@ hr {
     color: #fff;
 }
 
+.text-center{
+    text-align: center;
+    color: #fff;
+}
+
 .header #city_input:focus {
     outline: none;
 }
