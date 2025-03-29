@@ -1,7 +1,14 @@
 let cityInput = document.getElementById('city_input'),
     searchBtn = document.getElementById('searchBtn'),
     locationBtn = document.getElementById('locationBtn'),
-    api_key = 'ba04edbb03a0dfbbdda54df2e2317268',
+    // API Key for accessing external services (e.g., OpenWeather API)
+    // IMPORTANT: For security reasons, the API key is not included here. 
+    // The actual API key is securely stored in an environment variable or on the server side.
+    // The structure of the code below remains the same and will work when the API key is properly configured.
+
+    // Example of API Key usage (code remains the same as below):
+    // const api_key = 'YOUR_ACTUAL_API_KEY';  // Replace this with your secure API key
+    api_key = 'YOUR_ACTUAL_API_KEY',
     currentWeatherCard = document.querySelectorAll('.weather-left .card')[0],
     fiveDaysForecastCard = document.querySelector('.day-forecast'),
     aqiCard = document.querySelectorAll('.highlights .card')[0],
